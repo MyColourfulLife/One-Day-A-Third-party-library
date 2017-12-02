@@ -25,6 +25,7 @@ app.use(ipfilter(ips));
 ipfilter有两个参数，第一个是要处理的IP地址，第二个options选项。
 
 选项如下图示：
+
 | Property       | Description                              | Type     | Default            |
 | -------------- | ---------------------------------------- | -------- | ------------------ |
 | mode           | whether to *deny* or *allow* to the IPs provided | string   | deny               |
